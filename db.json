@@ -1,39 +1,41 @@
-[
-    {
-      "id": 1,
-      "title": "Exploring Nature's Wonders",
-      "description": "Discover the beauty of untouched landscapes, hidden waterfalls, and majestic mountains in this breathtaking journey.",
-      "likes_count": 120
-    },
-    {
-      "id": 2,
-      "title": "The Art of Cooking",
-      "description": "Delve into the culinary world with mouthwatering recipes, cooking tips, and delicious food adventures.",
-      "likes_count": 230
-    },
-    {
-      "id": 3,
-      "title": "Innovations in Technology",
-      "description": "Stay updated on the latest tech trends, gadgets, and breakthrough innovations shaping our future.",
-      "likes_count": 450
-    },
-    {
-      "id": 4,
-      "title": "Mindfulness Meditation",
-      "description": "Explore the transformative power of mindfulness meditation for inner peace, focus, and well-being.",
-      "likes_count": 320
-    },
-    {
-      "id": 5,
-      "title": "Travel Tales: Across Continents",
-      "description": "Embark on a virtual journey across continents, unraveling cultural marvels, and captivating stories.",
-      "likes_count": 180
-    },
-    {
-      "id": 6,
-      "title": "Mastering the Art of Photography",
-      "description": "Unlock the secrets of photography with expert tips, stunning visual narratives, and captivating images.",
-      "likes_count": 280
-    }
-  ]
-  
+{
+    "post": [
+        {
+          "id": 1,
+          "title": "Exploring Nature's Wonders",
+          "description": "Discover the beauty of untouched landscapes, hidden waterfalls, and majestic mountains in this breathtaking journey.",
+          "likes_count": 120
+        },
+        {
+          "id": 2,
+          "title": "The Art of Cooking",
+          "description": "Delve into the culinary world with mouthwatering recipes, cooking tips, and delicious food adventures.",
+          "likes_count": 230
+        },
+        {
+          "id": 3,
+          "title": "Innovations in Technology",
+          "description": "Stay updated on the latest tech trends, gadgets, and breakthrough innovations shaping our future.",
+          "likes_count": 450
+        },
+        {
+          "id": 4,
+          "title": "Mindfulness Meditation",
+          "description": "Explore the transformative power of mindfulness meditation for inner peace, focus, and well-being.",
+          "likes_count": 320
+        },
+        {
+          "id": 5,
+          "title": "Travel Tales: Across Continents",
+          "description": "Embark on a virtual journey across continents, unraveling cultural marvels, and captivating stories.",
+          "likes_count": 180
+        },
+        {
+          "id": 6,
+          "title": "Mastering the Art of Photography",
+          "description": "Unlock the secrets of photography with expert tips, stunning visual narratives, and captivating images.",
+          "likes_count": 280
+        }
+      ]
+      
+}
