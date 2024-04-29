@@ -1,7 +1,12 @@
 import React from 'react';
 
 const postPage = async() => {
-    const res = await fetch('http://localhost:5000/post')
+    const res = await fetch('http://localhost:5000/post', {
+        // cache: 'force-cache'
+        next: {
+            revalidate: 5,
+        }
+    })
     const posts = await res.json()
     // console.log(posts);
     return (
@@ -12,8 +17,9 @@ const postPage = async() => {
                 posts.map(post => <div key={post.id} className="card  bg-base-100 shadow-xl ">
                
                 <div className="card-body">
-                  <h2 className="card-title">S{post.title}</h2>
+                  <h2 className="card-title">{post.title}</h2>
                   <p>{post.description}</p>
+                  <p>likes: {post.likes_count} </p>
                
                 </div>
               </div>)
