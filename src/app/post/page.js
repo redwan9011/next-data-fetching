@@ -3,15 +3,17 @@ import React from 'react';
 const postPage = async() => {
     const res = await fetch('http://localhost:5000/post', {
         // cache: 'force-cache'
-        next: {
-            revalidate: 5,
-        }
+
+        // next: {
+        //     revalidate: 5,
+        // }
+        cache: 'no-store'
     })
     const posts = await res.json()
     // console.log(posts);
     return (
         <div>
-            <h1>Total Post: {posts.length} </h1>
+            <h1>Total Postssssssssss: {posts.length} </h1>
            <div className='grid grid-cols-3 gap-7'>
            {
                 posts.map(post => <div key={post.id} className="card  bg-base-100 shadow-xl ">
