@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-
+import styles from "./Post.module.css"
 const postPage = async() => {
     const res = await fetch('http://localhost:5000/post', {
         // cache: 'force-cache'
@@ -27,6 +27,10 @@ const postPage = async() => {
                 </div>
               </div>)
             }
+           </div>
+
+           <div>
+            <h1 className={styles.big_text}> This line used raw css</h1>
            </div>
     
         </div>
